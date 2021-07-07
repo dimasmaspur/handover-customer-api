@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit color="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="true"
+>
+    <testsuites>
+        <testsuites name="Test suite">
+            <directory>.</directory>
+        </testsuites>
+    </testsuites>
+    <php>
+        <var name="DB_CONNECTION" value="mysql" />
+        <var name="DB_HOST" value="149.129.247.111" />
+        <var name="DB_PORT  " value="3306" />
+        <var name="DB_DATABASE" value="ksidev_cdb" />
+        <var name="DB_USER" value="ksidev_cdb" />
+        <var name="DB_PASSWORD" value="kgeoWUbmsap" />
+    </php>
+</phpunit>
